@@ -5,14 +5,15 @@ header {
   background-size: 30%;
   height: 100px;
 }
+#altezza {
+  line-height: 18px;
+  color: gray;
+}
 h4 {
   color: gray;
 }
-h5 {
-  color: gray;
-}
 .foto_titoli {
-  line-height: 10%;
+  line-height: 18px;
 }
 header img {
   width: 120px;
