@@ -5,6 +5,25 @@ header {
   background-size: 30%;
   height: 100px;
 }
+.immagini {
+  widows: 100%;
+  height: 300px;
+  background-color: red;
+}
+.foto1 {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+  background-image: url(./img/tim-1.jpg);
+}
+.foto2 {
+  width: 50%;
+  height: 300px;
+  background-image: url(./img/tim-2.jpg);
+  display: inline-block;
+  position: absolute;
+}
 #altezza {
   line-height: 18px;
   color: gray;
