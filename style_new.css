@@ -1,21 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: wheat;
+}
 header {
-    background-color: hsl(212deg 100% 65%);
+    background-color: palevioletred;
     background-image: url(./img/pattern.png);
     background-position: center;
     background-size: 30%;
     height: 100px;
   }
+  h1{
+      color: purple;
+  }
+
   .immagini {
     widows: 100%;
     height: 300px;
     
   }
+
   .foto1 {
     width: 50%;
     height: 300px;
     display: inline-block;
     position: relative;
     background-image: url(./img/tim-1.jpg);
+
   }
   .foto2 {
     width: 50%;
@@ -24,46 +35,58 @@ header {
     display: inline-block;
     position: absolute;
     background-repeat: no-repeat;
+
   }
   #altezza {
     line-height: 18px;
     color: gray;
   }
+
   h4 {
     color: gray;
   }
+
   .foto_titoli {
     line-height: 18px;
   }
+
   header img {
     width: 120px;
     margin-top: 60px;
     margin-left: 10%;
   }
+
   main {
     width: 80%;
     margin: 0 auto;
   }
   
   #booleaner {
-    color: hsl(212deg 100% 65%);
+    color: palevioletred;
   }
   
+  /* Tabella*/
   table {
-    background-color: hsl(212deg 100% 65%);
+    background-color: purple;
   }
   tbody {
-    background-color: hsl(192deg 71% 82%);
+    background-color: palevioletred;
   }
   .bianco {
     background-color: white;
   }
   th {
-    color: white;
+    color:black;
+  }
+  td{
+      color: black;
   }
   .giallo {
-    background-color: yellow;
+    background-color: purple;
   }
+  
+  /*foto finali*/
+
   .foto_container {
     width: 300px;
     height: 200px;
